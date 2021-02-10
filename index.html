@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylee.css">
+</head>
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+  rel="stylesheet"
+/>
+<!-- START NAV -->
+
+<nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li>
+      <a href="#welcome-section" style="color: white; font-family:cursive; background-color:black;">About</a>
+    </li>
+    <li>
+      <a href="#projects" style="color: black; font-family:cursive; background-color:white;">Work</a>
+    </li>
+    <li>
+      <a href="https://github.com/patmmiyamoto" target="_blank" style="color: white; font-family:cursive; background-color:black;">Profile</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- END NAV -->
+
+<!-- START WELCOME SECTION -->
+
+<section id="welcome-section" class="welcome-section">
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h1>Hi! I am Pat</h1>
+
+<button onclick="typeWriter()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'Welcome to my Website.';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+</body>
+</html>
+
+
+</section>
+
+<!-- END WELCOME SECTION -->
+
+<!-- START PROJECTS SECTION -->
+
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header" style="background: black; color: white; font-family: brush script mt;">Here are some of my works:</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<a href="https://patmmiyamoto.github.io/Resume/" target="_blank">Resume</a>
+<a href="https://patmmiyamoto.github.io/Technical-Documentation/" target="_blank">Tecnhical Documentation</a>
+<a href="https://patmmiyamoto.github.io/Tribute-Page/" target="_blank">Tribute Page</a>
+<a href="https://patmmiyamoto.github.io/Survey-Form/" target="_blank">Survey Form</a>
+<a href="https://patmmiyamoto.github.io/Product-Landing-Page/" target="_blank">Product Landing Page</a>
+
+
+</body>
+</html>
+
+   
+</section>
+
+<!-- END PROJECTS SECTION -->
+
+
